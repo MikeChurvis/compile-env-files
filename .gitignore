@@ -1,2 +1,12 @@
-venv
-__pycache__
+# environment
+venv/
+
+# bytecode
+__pycache__/
+*.py[cod]
+
+# setuptools
+dist/
+build/
+*.egg
+*.egg-info/

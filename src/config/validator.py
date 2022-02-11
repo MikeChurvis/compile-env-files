@@ -1,5 +1,5 @@
 import re
-from utils import islist
+from ..utils import islist
 
 log = "[CONFIG][VALIDATION] {}".format
 
@@ -12,7 +12,9 @@ def validate_config_data(config_data: dict) -> None:
   validate_consumers_attribute(config_data)
   validate_variables_attribute(config_data)
   validate_all_variables_use_declared_consumers(config_data)
-  # TODO: detect consumer-key pair duplicates and raise KeyError
+  # TODO: detect variable consumer-key pair duplicates and raise ValueError.
+  # TODO: detect duplicate consumer output filepaths and raise ValueError.
+  # TODO: detect consumer output filepaths that don't end in .env, and prompt user to abort/continue.
 
 
 def validate_all_variables_use_declared_consumers(config_data: dict) -> None:
