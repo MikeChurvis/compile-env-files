@@ -21,7 +21,7 @@ Generates a config file template (`.env.config.json`) in the current directory.
 
 ## Requirements
 
-Python version: 3.5+
+Python version: 3
 
 Dependencies: 
 - setuptools

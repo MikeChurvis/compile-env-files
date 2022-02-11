@@ -14,6 +14,7 @@ setuptools.setup(
     url='https://github.com/MikeChurvis/compile-env-files',
     license='GPL-3',
     packages=['src'],
+    python_requires='>=3',
     entry_points={
         'console_scripts': [
             'compile-env=src.commands:compile_env_files',
