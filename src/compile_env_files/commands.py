@@ -1,6 +1,6 @@
 import sys
 import os
-from src import config, env_files
+from compile_env_files import config, env_files
 
 log = '[CONFIG][COMMAND] {}'.format
 
