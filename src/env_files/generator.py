@@ -1,5 +1,5 @@
 
-def generate_env_data(config_data):
+def generate_data(config_data):
   consumers_variables = { consumer: [] for consumer in config_data['consumers'] }
 
   for label, var_data in config_data['variables'].items():

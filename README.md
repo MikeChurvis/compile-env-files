@@ -28,7 +28,7 @@ Dependencies:
 
 ## Note
 
-To avoid compromising potentially sensitive information, I strongly recommend you add the following to your global `.gitignore`:
+To avoid compromising potentially sensitive information, I strongly recommend that you add the following to your global `.gitignore`:
 ```.gitignore
 .env.config.json
 *.env

@@ -1,6 +1,6 @@
 import os
 
-def write_env_files(env_data):
+def write(env_data):
   for filepath, data in env_data.items():
     target_directory = os.path.dirname(filepath)
     if not os.path.exists(target_directory):

@@ -1,2 +1,3 @@
-from .loader import load_config_data
-from .validator import validate_config_data
+from .loader import load
+from .validator import validate
+from .blank import config as blank_template

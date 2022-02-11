@@ -4,7 +4,7 @@ import os
 log = '[CONFIG][LOADER] {}'.format
 
 
-def load_config_data(path_to_config: str) -> dict:
+def load(path_to_config: str) -> dict:
   if not os.path.exists(path_to_config):
     raise FileNotFoundError(log(
       f"Cannot find a config file at ({path_to_config})."

@@ -4,7 +4,7 @@ from ..utils import islist
 log = "[CONFIG][VALIDATION] {}".format
 
 
-def validate_config_data(config_data: dict) -> None:
+def validate(config_data: dict) -> None:
   """
   Raises an error if any aspect of the configuration data is invalid.
   """
