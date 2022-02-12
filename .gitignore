@@ -1,6 +1,7 @@
 # sensitive info
 .env.config.json
 *.env
+!example/**
 
 # environment
 venv/
